@@ -3,13 +3,8 @@ description = Custom theme for One Step Away
 core = 7.x
 engine = phptemplate
 
-regions[header] = Header
-regions[sidebar_first] = Right sidebar
+stylesheets[all][] = CSS/style.CSS
+ 
+regions[user_menu] = User Menu
+regions[main_menu] = Main Menu
 regions[content] = Content
-regions[footer] = Footer
-
-stylesheets[all][] = css/style.css
-stylesheets[print][] = css/print.css
-
-features[] = name
-features[] = main_menu
