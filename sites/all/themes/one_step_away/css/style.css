@@ -2,10 +2,17 @@ body {
   margin:0px;
   font-family: 'Anton', sans-serif;
 }
-/* Black header section */
+
+/* Bootstrap Overrides */
+
+.container {
+    margin-bottom: 100px;
+}
+
+/* header section */
 header {
   height:50px;
-  background-color:#4a5829;
+  background-color: #4a5829;
   font-family: 'Roboto', sans-serif;
 }
 /* User Menu */
@@ -62,23 +69,46 @@ header li {
 .main-menu li {
   display:inline;
 }
-.main-menu .menu a:link {color:#4d4d4d; text-decoration: none;}
-.main-menu .menu a:visited {color:#4d4d4d; text-decoration: none;}
-.main-menu .menu a:hover {color:#4d4d4d; text-decoration: underline;}
-.main-menu .menu a:active {color:#4d4d4d; text-decoration: none;}
+.main-menu .menu a:link {color:#ffffff; text-decoration: none;}
+.main-menu .menu a:visited {color:#ffffff; text-decoration: none;}
+.main-menu .menu a:hover {color:#ffffff; text-decoration: underline;}
+.main-menu .menu a:active {color:#ffffff; text-decoration: none;}
 
 /* main content */
-.content-container-div {
-  width:960px;
-  margin-left:auto;
-  margin-right:auto;
+
+.cover-image {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
 /* breadcrumb */
 .breadcrumb {
   margin-top:15px;
   background-color: #CFD7C4;
   color: #4a5829;
 }
+
+/* sidebar */
+#sidebar {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #4a5829;
+  color: #ffffff;
+}
+
+#sidebar a {
+  color: #CFD7C4;
+}
+
 /* footer */
 footer {
   position: fixed;

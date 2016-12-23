@@ -4,7 +4,8 @@ core = 7.x
 engine = phptemplate
 
 stylesheets[all][] = CSS/style.CSS
- 
+
 regions[user_menu] = User Menu
 regions[main_menu] = Main Menu
 regions[content] = Content
+regions[sidebar_first] = Right sidebar
